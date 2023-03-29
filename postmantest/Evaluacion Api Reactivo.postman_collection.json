@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "50ffb451-08d3-4bd9-a631-77939aeedb49",
+		"name": "Evaluacion Api Reactivo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Insertar Cliente",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Listas Todos los Clientes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
