@@ -1,7 +1,6 @@
 package com.demo.cliente.api.reactive.reactive.api;
 
 
-
 import com.demo.cliente.api.reactive.reactive.model.Cliente;
 import com.demo.cliente.api.reactive.reactive.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +21,7 @@ public class ClienteApi {
 
     @PostMapping
     public void create(@RequestBody Cliente cliente) {
+
         clienteService.create(cliente);
     }
 
